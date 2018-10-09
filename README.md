@@ -1,6 +1,6 @@
 # Docker Rails App
 
-My first Rails App created and running on Docker from a Windows Host Machine.
+My first Rails App created by and running on Docker from a Windows Host Machine.
 
 Observations for future setup references:
 
