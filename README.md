@@ -46,7 +46,7 @@ Things you may want to cover:
 ruby 2.3.4
 
 ## Rails version
-rails', '4.2.5'
+rails', '4.2.7.1'
 
 ## System dependencies
 Postgres DB
