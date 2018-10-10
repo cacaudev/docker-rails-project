@@ -9,8 +9,8 @@ Observations for future setup references:
 - Windows 10 Home used, only have one network adapter.
 - After Docker-Toolbox is finished installing (QuickStart Terminal, Kitematic, VirtualBox),
   run QuickStart Terminal to bootstrap docker and create virtualbox image
-  => IF HOST-ONLY ADAPTER ERROR OCCUR: DISABLE VBOX BRIDGE
-  FROM MAIN NETWORK ADAPTER AND RUN QUICKSTART AGAIN!!
+  => if host-only adapter error occur: disable vbox bridge
+  from main network adapter and run quickstart again!
 - IP from virtualbox machine image will be in GREEN
 - Docker only works on Docker QuickStart Terminal and Git Bash Terminal.
 - When creating a new project:
