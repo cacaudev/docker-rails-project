@@ -1,4 +1,4 @@
-# Docker Rails App
+# Simple Dockerized Rails App
 
 My first Rails App created by and running on Docker from a Windows Host Machine.
 
@@ -13,6 +13,8 @@ Observations for future setup references:
   from main network adapter and run quickstart again!
 - IP from virtualbox machine image will be in GREEN
 - Docker only works on Docker QuickStart Terminal and Git Bash Terminal.
+- Followed RubyThursday guide:  
+  https://www.youtube.com/watch?v=KH6pcHb6Wug&t=2s
 - When creating a new project:
   - Check docker and docker-compose versions:
     ```sh
@@ -34,8 +36,6 @@ Observations for future setup references:
     ```sh
     $ docker stop <container-id>
     ```
-  - Followed RubyThursday guide:  
-    https://www.youtube.com/watch?v=KH6pcHb6Wug&t=2s
 
 > References from solved errors:  
 > https://github.com/docker/docker.github.io/issues/3842  
