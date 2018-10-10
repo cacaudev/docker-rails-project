@@ -10,7 +10,7 @@ Observations for future setup references:
 - After Docker-Toolbox is finished installing (QuickStart Terminal, Kitematic, VirtualBox),
   run QuickStart Terminal to bootstrap docker and create virtualbox image  
   => if host-only adapter error occur: disable vbox bridge
-  from main network adapter and run quickstart again!
+  from main network adapter and run quickstart again! ☕
 - IP from virtualbox machine image will be in GREEN.
 - Docker only works on Docker QuickStart Terminal and Git Bash Terminal.
 - To check docker and docker-compose versions:  
@@ -60,21 +60,16 @@ Observations for future setup references:
 > https://github.com/docker/compose/issues/2103
 
 Settings for this project:
-
 ## Ruby version
-
 ruby 2.3.4
 
 ## Rails version
-
-rails ~> 4.2.7.1
+rails ~> 4.2.7.1 
 
 ## System dependencies
-
 Postgres DB
 
 ## Database
-
 ### Database creation
 ```sh
 $ docker-compose run web rake db:create
