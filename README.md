@@ -26,7 +26,7 @@ Observations for future setup references:
   - App folder MUST be in c:/Users/Username/ (to mount docker image, copy app
     folder and prevent "Gemfile not found" error when running docker-compose up
     first time).
-  - To check wich containers are running:
+  - To check which containers are running:
     ```sh
     $ docker ps
     ```
@@ -35,38 +35,50 @@ Observations for future setup references:
     $ docker stop <container-id>
     ```
   - Followed RubyThursday guide:  
-  https://www.youtube.com/watch?v=KH6pcHb6Wug&t=2s
+    https://www.youtube.com/watch?v=KH6pcHb6Wug&t=2s
 
 > References from solved errors:  
 > https://github.com/docker/docker.github.io/issues/3842  
-> https://github.com/docker/compose/issues/2103  
+> https://github.com/docker/compose/issues/2103
 
 Things you may want to cover:
+
 ## Ruby version
+
 ruby 2.3.4
 
 ## Rails version
+
 rails ~> 4.2.7.1
 
 ## System dependencies
+
 Postgres DB
 
 ## Configuration
+
 To bootstrap the app and the postgres db run:
-  ```sh
-  $ docker-compose up
-  ```
+
+```sh
+$ docker-compose up
+```
+
 Always after changing something in Gemfile run:
-  ```sh
-  $ docker-compose build
-  ```
+
+```sh
+$ docker-compose build
+```
+
 ## Database
 
-  ### Database creation
-  ```sh
-  $ docker-compose run web rake db:create
-  ```
-  ### Database initialization
-  ```sh
-  $ docker-compose run web rake db:migrate
-  ```
+### Database creation
+
+```sh
+$ docker-compose run web rake db:create
+```
+
+### Database initialization
+
+```sh
+$ docker-compose run web rake db:migrate
+```
