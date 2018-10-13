@@ -63,7 +63,8 @@ Observations for future setup references:
 ## References and guides
 
 > https://davidwalsh.name/docker-remove-all-images-containers  
-> https://auth0.com/blog/ruby-on-rails-killer-workflow-with-docker-part-1/  
+> https://auth0.com/blog/ruby-on-rails-killer-workflow-with-docker-part-1/   
+> https://medium.com/the-code-review/run-bash-or-any-command-in-a-docker-container-9a1e7f0ec204  
 > RubyThursday guide: https://www.youtube.com/watch?v=KH6pcHb6Wug&t=2s  
 > From solved errors:  
 > https://github.com/docker/docker.github.io/issues/3842  
